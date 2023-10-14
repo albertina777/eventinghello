@@ -1,7 +1,8 @@
 package com.redhat.developers;
 
 import java.util.Map;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -17,7 +18,7 @@ import javax.ws.rs.core.Response.Status;
 @Path("/")
 public class LoggerResource {
 
-    private static final Logger LOGGER = Logger.getLogger(LoggerResource.class.getName());
+    private static final Logger LOGGER = LoggerFactory.getLogger(LoggerResource.class);
 
     @GET
     @Consumes(MediaType.APPLICATION_JSON)
