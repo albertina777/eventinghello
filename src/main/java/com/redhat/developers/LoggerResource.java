@@ -34,7 +34,7 @@ public class LoggerResource {
     @Path("/")
     public Response eventingEndpoint(@Context HttpHeaders httpHeaders,
             String cloudEventJSON) {
-        LOGGER.info("ExampleResource's @POST method invoked.");
+        LOGGER.info("ExampleResource's @POST method invoked for my demo");
 
         outputEnv();
 
