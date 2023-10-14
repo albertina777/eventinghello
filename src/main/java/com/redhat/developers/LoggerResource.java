@@ -17,7 +17,7 @@ import javax.ws.rs.core.Response.Status;
 @Path("/")
 public class LoggerResource {
 
-    private static final Logger LOGGER = Logger.getLogger("LoggerResource");
+    private static final Logger LOGGER = Logger.getLogger(LoggerResource.class.getName());
 
     @GET
     @Consumes(MediaType.APPLICATION_JSON)
