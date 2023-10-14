@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/openjdk-17:1.16-1
+FROM registry.access.redhat.com/ubi9.2/openjdk-17:1.16-1
 
 ENV LANGUAGE='en_US:en'
 
