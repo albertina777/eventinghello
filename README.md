@@ -7,7 +7,7 @@ If you want to to learn more about Quarkus, please visit its website: https://qu
 ## Running the application in dev ddmode
 
 sdjuhdhjdjdjd
-You can run your application in dev mode that enables live coding wwww using:
+You can run your application in dev mode that enables live coding wwwww using:
 ```
 ./mvnw quarkus:dev
 ```
